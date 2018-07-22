@@ -1,0 +1,306 @@
+﻿ /* 
+   Megan's Dogwalks
+   Filename: styles.css
+
+   Author: Ryan Gamble   
+   Date: 03/02/2018     
+ */
+ 
+ /* reset styles */
+* {
+	 border: 0;
+	 margin: 0;
+	 padding: 0;
+}
+html, body, .container, .content {
+  height: 100%;
+  width: 100%;
+  background: #B3EC42;
+}
+ 
+/* layout styling */
+* {
+	box-sizing: border-box;
+}
+[class*="col-"] {
+    float: left;
+}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+.row {width: 100%;}
+.block {
+	float: left;
+	width: 50%;
+}
+.full-block {
+	float: left;
+	width: 100%;
+}
+
+/* Font Size */
+p, li {
+	font-size: 1.25em;
+}
+
+/***********/
+/* HEADER  */
+/***********/
+.header a img {
+	width: 100%;
+	height: auto;
+}
+
+/***********/
+/*   NAV   */
+/***********/
+nav ul {
+    list-style-type: none;
+}
+nav ul li {
+	background-color: #46545C;
+	text-align: center;
+	font-size: 1.5em;
+}
+nav a:link {
+    text-decoration: none;
+	color: #B3EC42;
+}
+nav a:visited {
+    text-decoration: none;
+	color: #B3EC42;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+nav a:active {
+    text-decoration: underline;
+}
+
+/***********/
+/* CONTENT */
+/***********/
+.main-col {
+	background-color: #CAFF61;
+	border: 3px solid #526C1F;
+}
+.main-col h2, .main-col h3, .main-col p {
+	margin: 10px;
+}
+.gutter, .filler {
+	min-height: 20px;
+}
+
+/* Link Styling */
+a:link {
+    text-decoration: none;
+	color: #526C1F;
+}
+a:visited {
+    text-decoration: none;
+	color: #526C1F;
+}
+a:hover {
+    text-decoration: underline;
+}
+a:active {
+    text-decoration: underline;
+}
+
+/* Home Page */
+.banner-video video {
+	width: 100%;
+	height: auto;
+}
+.home-header h1, .home-header h2, .home-header p {
+	text-align: center;
+}
+.home p, .home h1, .home h2 {
+	text-align: center;
+}
+.home img {
+	display: block;
+	margin: auto;
+}
+
+/* About Page */
+.about h1 {
+	text-align: center;
+	margin: 10px 0;
+}
+.about img {
+	display: block;
+	margin: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.about p {
+	margin: 25px 10px 10px 10px;
+}
+
+/* Services, Products, and Dogboarding Pages */
+.services p, .products p, .dogboarding p {
+	margin-top: 10px;
+	padding: 30px;
+	text-align: center;
+}
+.services h2, .products h2, .dogboarding h2 {
+	margin: 10px;
+	text-align: center;
+}
+.services div a img, .products div a img, .dogboarding div a img {
+	display: block;
+	margin: auto;
+}
+
+/* Testimony and FAQ Page */
+.testimonies h1, .faq h1 {
+	text-align: center;
+	margin-top: 10px;
+}
+.testimonies p, .faq p {
+	margin-bottom: 30px;
+}
+form {
+  margin: 5px auto;
+  padding: 5px;
+  width: 500px;
+  border: 3px solid #000000;
+  border-radius: 0.5em;
+}
+legend {
+	text-align: center;
+	font-weight: bold;
+	font-size: 2em;
+	padding: 5px;
+}
+form div {
+  margin: 5px;
+}
+label {
+  display: inline-block;
+  width: 100px;
+  text-align: right;
+}
+input, textarea {
+  font: 1em sans-serif;
+  width: 300px;
+  box-sizing: border-box;
+  border: 1px solid #999;
+}
+input:focus, textarea:focus {
+  border-color: #000;
+}
+textarea {
+  vertical-align: top;
+  height: 100px;
+}
+.button button {
+	margin-left: 105px;
+	padding: 5px;
+	background: #46545C;
+	color: #B3EC42;
+	font-size: 1.5em;
+}
+
+/* Contact Page */
+.contact h1 {
+	text-align: center;
+	margin: 10px 0 50px 0;
+}
+.contact p {
+	text-align: center;
+}
+.contact p:nth-child(-n+4) {
+	font-weight: bold;
+	margin: 5px 0;
+}
+.contact p:nth-child(5) {
+	margin: 30px 10px 10px 10px;
+}
+.contact iframe {
+	display: block;
+	margin: auto;
+	padding: 10px;
+}
+
+/* Boarding Location Pages */
+.lafayettelocation ol, .lebanonlocation ol {
+	margin-bottom: 10px;
+}
+
+/* Service and Doggybox Info Pages */
+.doggybox h1, .dogsitting h1, .dogtraining h1, .dogwalking h1, .lafayettelocation h1, .lebanonlocation h1, .dogsupplies h1 {
+	text-align: center;
+	margin: 10px 0;
+}
+.doggybox img, .dogsitting img, .dogtraining img, .dogwalking img, .lafayettelocation img, .lebanonlocation img {
+	display: block;
+	margin: auto;
+	margin-bottom: 10px;
+}
+.doggybox ul, .dogsitting ul, .dogtraining ul, .dogwalking ul, .lafayettelocation ul, .lafayettelocation ol, .lebanonlocation ul, .lebanonlocation ol {
+	margin-left: 30px;
+}
+
+/* Dogsupplies Page */
+.dogsupplies p, .dogsupplies h3 {
+	text-align: center;
+}
+.product img {
+	display: block;
+	margin: auto;
+}
+.product {
+	margin-top: 20px;
+}
+table {
+	margin: 10px auto;
+	border-collapse: collapse;
+}
+table tr:first-child td{
+	font-weight: bold;
+}
+table, th, td {
+	border: 1px solid black;
+	padding: 5px;
+}
+
+/* Sitemap */
+.sitemap h1 {
+	text-align: center;
+}
+.sitemap ul {
+	margin-left: 30px;	
+}
+.sitemap li {
+	margin: 10px;
+}
+
+/* Footer */
+footer {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 30px;
+	background: #46545C;
+}
+footer p {
+	color: #B3EC42;
+	text-align: center;
+}
+
+/* Documentation */
+#documentation {
+	margin-bottom: 30px;
+}

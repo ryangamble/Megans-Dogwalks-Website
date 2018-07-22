@@ -1,0 +1,104 @@
+@media only screen and (max-width: 1024px) {
+    .block {
+        width: 100%;
+    }
+	p, li, td {
+		font-size: 1.125em;
+	}
+}
+@media only screen and (max-width: 800px) {
+	nav a {
+		font-size: .8em;
+	}
+	#map {
+		height: 300px;
+		width: 400px;
+	}
+}
+@media only screen and (max-width: 650px) {
+	footer p {
+		font-size: .85em;
+	}
+	td {
+		font-size: .8em;
+	}
+	form {
+		width: 250px;;
+	}
+	legend {
+		font-size: 1.5em;
+	}
+	label {
+		width: 50px;
+	}
+	input, textarea {
+		margin-left: 20px;
+		width: 150px;
+	}
+	textarea {
+		height: 100px;
+	}
+	.button button {
+		margin-left: 75px;
+		font-size: 1em;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	nav a {
+		font-size: .6em;
+	}
+	#dogsitting-img, #dogtraining-img, #dogwalking-img, #services1-img, #services2-img, #services3-img, #services4-img {
+		height: 200.25px;
+		width: 300px;
+	}
+}
+@media only screen and (max-width: 500px) {
+	footer p {
+		font-size: .65em;
+	}
+	#map {
+		height: 150px;
+		width: 200px;
+	}
+	td {
+		font-size: .6em;
+	}
+}
+@media only screen and (max-width: 450px) {
+	nav a {
+		font-size: .40em;
+	}
+	#about-img {
+		height: 112.5px;
+		width: 200px;
+	}
+	#doggybox-img{
+		height: 200px;
+		width: 200px;
+	}
+	#dogsitting-img, #dogtraining-img, #dogwalking-img, #services1-img, #services2-img, #services3-img, #services4-img {
+		height: 133.5px;
+		width: 200px;
+	}
+	#lafayettelocation-img, #lebanonlocation-img {
+		height: 133.125px;
+		width: 200px;
+	}
+}
+@media only screen and (max-width: 375px) {
+	footer p {
+		font-size: .45em;
+	}
+	#dogboarding1-img, #dogboarding2-img {
+		height: 133.125px;
+		width: 200px;
+	}
+	#products1-img, #products2-img{
+		height: 200px;
+		width: 200px;
+	}
+	td {
+		font-size: .45em;
+	}
+}
